@@ -1,0 +1,523 @@
+*{
+  margin: 0;
+}
+main{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(back_3.png);
+}
+.TitleSplash{
+  position: absolute;
+  top: 60vh;
+  left: 50vw;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+  width: 100vw;
+  height: 30vh;
+}
+.copy{
+  animation-name: CopyAnim;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  font-family: a-otf-futo-min-a101-pr6n, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+@keyframes CopyAnim {
+  from {
+  opacity: 100;
+  }
+  to {
+  opacity: 0;
+  }
+}
+.Main{
+  animation-name: MainAnim;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+}
+@keyframes MainAnim {
+  from {
+  opacity: 0;
+  }
+  to {
+  opacity: 100;
+  }
+}
+.Title{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+  width: 90vw;
+  height: 28vh;
+}
+.DayTimeImg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}
+.Snow{
+  position: absolute;
+  bottom: 8%;
+  left: 0%;
+}
+.Snow1{
+  position: relative;
+  top: 0%;
+}
+.Snow2{
+  position: absolute;
+  top: 20%;
+  left: 0;
+}
+.Snow3{
+  position: absolute;
+  top: -70%;
+  left: 0;
+}
+.SantaJi-san{
+  width: 30%;
+  height: 40vh;
+  position: relative;
+  right: 0;
+}
+.SantaJi-sanImg{
+  position: absolute;
+  width: 35vw;
+  height: 24vh;
+  top: -70%;
+  left: 200%;
+}
+.Ji-sanHandImg{
+  animation-name: HandAnim;
+  animation-duration:3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+  top: -65%;
+  left: 190%;
+  width: 23vw;
+  height: 16vh;
+}
+@keyframes HandAnim {
+  from {
+    transform: rotate(-10deg);
+  }
+  to {
+    transform: rotate(-30deg);
+  }
+}
+.Yukidaru{
+  width: 23vw;
+  height: 18vh;
+}
+.YukidaruImg{
+  position: absolute;
+  top: -50%;
+  right: -230%;
+  width: 23vw;
+  height: 18vh;
+}
+.ArrowImg{
+  width: 100vw;
+  height: 10vh;
+  position: absolute;
+  top:  -4%;
+  left: 0%;
+}
+.CoS{
+  opacity: 0;
+  position: relative;
+  width: 98.9vw;
+  height: 100vh;
+}
+.cos1{
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  animation-name: CoS1Anim;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes CoS1Anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cos2{
+  position: absolute;
+  top: 15%;
+  right: 18%;
+  animation-name: CoS2Anim;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes CoS2Anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.cos3{
+  position: absolute;
+  top: 42%;
+  right: 10%;
+  animation-name: CoS3Anim;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes CoS3Anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cos4{
+  position: absolute;
+  top: 30%;
+  left: 8%;
+  animation-name: CoS4Anim;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes CoS4Anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.cos5{
+  position: absolute;
+  top: 46%;
+  left: 20%;
+  animation-name: CoS5Anim;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes CoS5Anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.cos6{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  animation-name: CoS6Anim;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes CoS6Anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.cos7{
+  position: absolute;
+  top: 56%;
+  left: 2%;
+  animation-name: CoS7Anim;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes CoS7Anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cos8{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  animation-name: CoS8Anim;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes CoS8Anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Food{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(BackGreen.png);
+}
+.FoodTitleImg{
+  position: absolute;
+  top: 10%;
+  left: 38%;
+}
+.TopSnowImg{
+  position: absolute;
+  top: 0vh;
+  transform: scale(1, -1);
+}
+.BottomSnowImg{
+  position: absolute;
+  bottom: 15%;
+  transform: scale(1, 1);
+}
+.Yukidaru-1{
+  position: absolute;
+  Top: 50%;
+  right: 10%;
+  transform: scale(-1, 1);
+}
+/* .Yukidaru-2{
+  position: absolute;
+  Top: 0%;
+  right: 5%;
+  transform: scale(-1, 1);
+} */
+/* .FoodFlame{
+  width: 55%;
+  position: absolute;
+  top: 30%;
+  left: -33%;;
+  animation-name: FoodFlameAnim;
+  animation-duration: 10s;
+  animation-timing-function: inherit;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+} */
+/* @keyframes FoodFlameAnim {
+  0% {
+    transform: rotate(0deg);
+    transform: translate(0vw,5vh);
+  }
+  40%{
+    transform: rotate(360deg);
+    transform: translate(92vw,5vh);
+  }
+  50%{
+    transform: translate(932w,5vh);
+  }
+  60%{
+    transform: translate(92vw,5vh);
+  }
+  70%{
+    transform: translate(92vw,5vh);
+  }
+  100% {
+    transform: translate(150vw,2vh);
+  }
+} */
+.FoodImg{
+  position: relative;
+  width: 98.9vw;
+  height: 65vh;
+}
+.FoodFlame-1{
+  position: absolute;
+  top: 30%;
+  left: 3%;
+}
+.SushiImg{
+  position: absolute;
+  top: 31%;
+  left: 3.7%;
+  /* animation-name: SushiAnim;
+  animation-duration: 30s;
+  animation-timing-function: inherit;
+  animation-direction: normal;
+  animation-iteration-count: infinite; */
+}
+/* @keyframes SushiAnim {
+  0% {
+    opacity: 0;
+  }
+  10%{
+    opacity: 0;
+  }
+  19%{
+    opacity: 1;
+  }
+  20%{
+    opacity: 1;
+  }
+  25%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+} */
+.FoodFlame-2{
+  position: absolute;
+  top: 30%;
+  right: 3%;
+}
+.ChickenImg{
+  position: absolute;
+  top: 31%;
+  right: 3.7%;
+  /* animation-name: ChickenAnim;
+  animation-duration: 30s;
+  animation-timing-function: inherit;
+  animation-direction: normal;
+  animation-iteration-count: infinite; */
+}
+/* @keyframes ChickenAnim {
+  0% {
+    opacity: 0;
+  }
+  45%{
+    opacity: 0;
+  }
+  49%{
+    opacity: 1;
+  }
+  55%{
+    opacity: 1;
+  }
+  60%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+} */
+.FoodFlame-3{
+  position: absolute;
+  top: 72%;
+  left: 3%;
+}
+.AppetizerImg{
+  position: absolute;
+  top: 73%;
+  left: 3.7%;
+  /* animation-name: AppAnim;
+  animation-duration: 30s;
+  animation-timing-function: inherit;
+  animation-direction: normal;
+  animation-iteration-count: infinite; */
+}
+.ArrowImg-2{
+  width: 100vw;
+  height: 10vh;
+  position: absolute;
+  top:  84%;
+  left: 0%;
+}
+/* @keyframes AppAnim {
+  0% {
+    opacity: 0;
+  }
+  80%{
+    opacity: 0;
+  }
+  83%{
+    opacity: 1;
+  }
+  88%{
+    opacity: 1;
+  }
+  93%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+} */
+.TopSnowImg-3{
+  position: absolute;
+  top: -7%;
+  left: 0%;
+  transform: scale(1,-1);
+}
+.Game{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(47632547_p31.jpg);
+  position: relative;
+}
+.BottomSnowImg-3{
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  transform: scale(-1,1);
+}
+.GameTitle{
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform : translate(-50%,-50%);
+}
+.slick-slider {
+  position: absolute;
+  bottom: -20%;
+  left: -5%;
+  width: auto;
+  height: auto;
+}
+.slick-slide img {
+  min-width: 100%;
+  height: auto;
+}
+.slick-next {
+  right: -22px;
+  z-index: 99;
+}
+.slick-prev {
+  left: 18px;
+  z-index: 100;
+}
+/* 左右の矢印の色を調整 */
+.slick-prev:before,
+.slick-next:before {
+  color: #000000;
+}
+/* スライド数のドットの色をBlackに */
+.slick-dots li.slick-active button:before,
+.slick-dots li button:before {
+  color: #000000;
+}
+
+/* ドットの位置調整(画像の真ん中に) */
+.slick-dots {
+  width: 10%;
+}
